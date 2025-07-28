@@ -1,0 +1,66 @@
+{
+  "name": "sheet-component",
+  "private": false,
+  "version": "1.0.3",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "docs": "vite --port 6006",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.14",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.532.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.0",
+    "vite": "^4.5.0"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src/components",
+    "src/lib"
+  ],
+  "keywords": [
+    "react",
+    "component",
+    "sheet",
+    "dialog",
+    "modal",
+    "ui",
+    "radix-ui",
+    "tailwind"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/sheet-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/sheet-component/issues"
+  },
+  "homepage": "https://github.com/yourusername/sheet-component#readme"
+}
