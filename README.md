@@ -22,7 +22,7 @@ npm install sheet-component
 ### From GitHub
 
 ```bash
-npm install github:salma__0000/sheet-component
+npm install github:salma-hamido/sheet-component
 ```
 
 ## Usage
