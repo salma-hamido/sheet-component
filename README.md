@@ -13,8 +13,16 @@ A modern, accessible sheet component built with React, Radix UI, and Tailwind CS
 
 ## Installation
 
+### From npm (recommended)
+
 ```bash
 npm install sheet-component
+```
+
+### From GitHub
+
+```bash
+npm install github:salma__0000/sheet-component
 ```
 
 ## Usage
