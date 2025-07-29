@@ -38,10 +38,16 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "files": [
     "dist",
-    "src/components",
-    "src/lib"
+    "src"
   ],
   "keywords": [
     "react",
@@ -53,7 +59,7 @@
     "radix-ui",
     "tailwind"
   ],
-  "author": "Your Name",
+  "author": "Salma Hamido",
   "license": "MIT",
   "repository": {
     "type": "git",
